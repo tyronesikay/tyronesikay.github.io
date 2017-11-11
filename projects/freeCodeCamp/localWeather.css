@@ -44,3 +44,13 @@ transform: translateY(1px);
   color:white;
   font-style: italic;
 }
+.center1{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  width: 100%;
+  height: 100%;
+}

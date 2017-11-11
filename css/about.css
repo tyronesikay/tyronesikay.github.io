@@ -16,13 +16,19 @@ h2{
     padding: .3em;
   }
 
-  .list {
-    font-size: 2em;
-    max-width: 400px;
-    font-family: serif,cursive;
-    color: #ffffff;
-    text-align: justify;
-  }
+.aboutMain{
+  max-width: 800px;
+  font-size: 1.7em;
+  font-family: Georgia, serif, sans-serif;
+  color: #ffffff;
+  text-align: justify;
+}
+
+
+#home1{
+  padding-top: 12%;
+  text-align: center;
+}
 
 .center1{
   position: absolute;
@@ -40,23 +46,31 @@ h2{
 
 @media (max-width:700px) {
       h1 {
-        font-size: 3em;
+        font-size: 2.2em;
       }
-      .list {
-        font-size: 1.3em;
+      .aboutMain {
+        font-size: 1.1em;
         text-align: left;
+      }
+      #home1{
+        padding-top: 15%;
+        text-align: center;
       }
 }
 
 @media (max-height:450px) {
       h1 {
-        font-size: 2.5em;
+        font-size: 2.2em;
       }
       h2 {
         font-size: 1.5em;
       }
-      .list {
-        font-size: 1.2em;
-        text-align: left
+      .aboutMain {
+        font-size: 1em;
+        text-align: justify;
+      }
+      #home1{
+        padding-top: 12%;
+        text-align: center;
       }
 }
