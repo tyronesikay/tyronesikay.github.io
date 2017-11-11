@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TyroneSikay|Web Developer</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- ***** Create error in console if "skills" is clicked -  solve later*****************************************************-->
+<!-- ****** Hover pop-up in skills doesn't work if this script is below the rest of the script - why? *****************************************************-->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!--  ********************************************************************************************************** -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <script  src="js/index.js"></script>
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+  		<div class="container" style="padding: 0 1em">
+  			<div class="navbar-header">
+  				<button type="button" class="navbar-toggle navbar-text" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        <div>
+  			  <a href="index.html"><img src="img/TS1yellow.png" alt="TS" style="margin-top:7px"></a>
+        </div>
+  		</div>
+  			<div class="collapse navbar-collapse" id="myNavbar">
+  				<ul class="nav navbar-nav navbar-right navbar-text">
+  					<li><a href="index.html">HOME</a></li>
+  					<li id="navAbout"><a href="#">ABOUT ME</a></li>
+  					<li id="navSkills"><a href="#">SKILLS</a></li>
+  					<li id="navPortfolio"><a href="#">PORTFOLIO</a></li>
+            <li><a href=""data-toggle="modal" data-target="#modalContact">CONTACT ME</a></li>
+  				</ul>
+  			</div>
+  		</div>
+  	</nav>
+<!-- **************************************MAIN********************************************** -->
+<div id="main">
+  <div class="center1" id="home1">
+
+    <div id="home">
+      <div class="row">
+        <div class="title">
+          <a href="index.html"><img class="animated rollIn" src="img/TS2red.png" alt="TS" tyle="width:30em"></a>
+          <div class="subTitle animated fadeInDownBig">
+            <i>Junior Frontend Developer</i>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin: 0px 1.5px">
+        <span class="bttn about">ABOUT ME</span>
+        <span class="bttn skills">SKILLS</span>
+      </div>
+      <div style="margin: 0px 1.5px">
+        <span class="bttn portfolio">PORTFOLIO</span>
+        <span class="bttn contact" data-toggle="modal" data-target="#modalContact">CONTACT ME</span>
+      </div>
+    </div>
+    <img class="headshot" src="img/headshot.jpg" alt="Headshot">
+  </div>
+</div>
+
+<!---  Modal --------------------------------------------------------------------------------------------->
+  <div class="modal fade" id="modalContact" role="dialog">
+    <div class="center">
+      <!-- Modal content-->
+      <div class="modalContact">
+        <i><strong> t_sikay@yahoo.com</strong></i>
+        <br>
+        <a href="https://github.com/ungas" target="blank"><i title ="Github" class="fa fa-github-square fa-2x" ></i></a>
+        <a href="https://www.linkedin.com/in/tyrone-sikay-17aa7413a/" target="blank"><i title = "Linkedin" class="fa fa-linkedin-square fa-2x" style="color: #1976d2"></i></a>
+        <p><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
