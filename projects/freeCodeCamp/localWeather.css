@@ -1,0 +1,46 @@
+
+
+body{
+  background-color: #298ea0;
+  margin: 20px auto;
+}
+h1{
+  font-size: 50px;
+  font-family:lobster, fantasy,cursive;
+  text-align:center;
+  color: maroon;
+}
+h2{
+  font-size: 40px;
+  font-family:lobster, fantasy,cursive;
+  text-align:center;
+  color: maroon;
+}
+
+.button{
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-decoration: none;
+  }
+.button1:hover { /* change color and pointer */
+  cursor: pointer;
+  color: red;
+}
+button:active {/* Button action when clicked = move y orientation */
+transform: translateY(1px);
+}
+.featureBox{
+  background-color: #052c33;
+  font-family:times new roman, Lobster;
+  text-align: center;
+  border-radius: 30px;
+  width: 600px;
+  margin: 20px auto;
+  padding: 50px 80px 30px 80px;
+  border-color: white;
+  border-style: dashed;
+  font-size: 30px;
+  color:white;
+  font-style: italic;
+}

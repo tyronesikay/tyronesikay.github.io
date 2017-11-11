@@ -1,0 +1,48 @@
+body{
+  background-color:#298ea0;
+}
+h1{
+  font-size: 40px;
+  font-family:lobster;
+  text-align:center;
+  color: maroon;
+}
+
+.button1{
+  background-color: cyan;
+  font-size: 20px;
+  font-family:Lobster;
+  text-align:center;
+  color:     #a307b8;
+  border-radius: 10px;
+}
+button:hover { /* Create shadow below button */
+  box-shadow: 5px 5px;
+  transition: .5s;
+}
+button:active {/* Button action when clicked = move y orientation */
+transform: translateY(1px);
+}
+.quoteBox{
+  background-color: #052c33;
+  //font-family:Lobster;
+  border-radius: 30px;
+  width: 600px;
+  margin: 20px auto;
+  padding: 50px 80px 30px 80px;
+  border-color: white;
+  border-style: dashed;
+}
+.fontQuote{
+  font-family:times new roman, lobster;
+  font-style: italic;
+  text-align: center;
+  color:white;
+  font-size: 30px;
+}
+.fontAuthor{
+  font-size: 20px;
+  font-family: lobster;
+  text-align: right;
+  color: #ffca33;
+}
