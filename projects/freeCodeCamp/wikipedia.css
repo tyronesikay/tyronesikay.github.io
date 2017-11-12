@@ -1,6 +1,7 @@
 body {
-  background-color:  #b4e8e7 ;
-  color:  #FFC300;
+  background-color:  #616161;
+  color:  #FFffff;
+  font-size: 1.5em;
   ba ckground:url(https://goo.gl/QL3LF7);
 
   }
@@ -20,8 +21,11 @@ h2{
   text-align: center;
   max-width: 200px
   margin:auto;
-
 }
+.main{
+  padding-top: 5%;
+}
+
 .resultBox{
   max-width: 900px;
   padding: 1em;

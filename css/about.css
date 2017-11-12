@@ -2,12 +2,15 @@ body {
   background-color:   #150000;
   color:  #FFC300;
   font-family: serif, monospace;
-
+  display: flex;
+  justify-content: center;
   }
+
 h1{
     font-size: 4.5em;
     font-family:serif, fantasy,cursive;
     color: #ff0000;
+    margin-bottom: 3px
   }
 h2{
     font-size: 3em;
@@ -23,6 +26,23 @@ h2{
   color: #ffffff;
   text-align: justify;
 }
+
+.aboutHeader a{
+  opacity:.5;
+}
+
+.aboutHeader a:hover{
+  opacity:1;
+}
+
+.aboutMain a{
+  color:#ff0000;
+}
+
+.aboutMain a:hover{
+  color:#FFC300;
+}
+
 
 
 #home1{
