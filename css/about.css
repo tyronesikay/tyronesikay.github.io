@@ -24,7 +24,11 @@ h2{
   font-size: 1.7em;
   font-family: Georgia, serif, sans-serif;
   color: #ffffff;
+  padding-top: 1em;
   text-align: justify;
+}
+.boutHeader i{
+  font-size: 1.8em;
 }
 
 .aboutHeader a{
@@ -42,6 +46,25 @@ h2{
 .aboutMain a:hover{
   color:#FFC300;
 }
+
+.resume{
+  background: #9b59b6;
+  border-radius:.3em;
+  color: #ffffff;
+  font-size:1.8em;
+  padding: .1em .25em;
+  vertical-align:.25em;
+  font-style: normal;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+
 
 
 
@@ -75,6 +98,13 @@ h2{
       #home1{
         padding-top: 15%;
         text-align: center;
+      }
+      .aboutHeader i{
+        font-size: 1.5em;
+      }
+      .aboutHeader .resume{
+        font-size:.95em;
+
       }
 }
 

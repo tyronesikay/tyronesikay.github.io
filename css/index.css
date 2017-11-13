@@ -32,11 +32,11 @@ h2 {
   background-color: #500000 !important;
 }
 
-a {
-  color: #ffffff !important;
+#myNavbar a {
+  color: #ffffff;
 }
-a:hover {
-  color: #ff0000 !important;
+#myNavbar a:hover {
+  color: #ff0000;
 }
 
 .title {
@@ -113,9 +113,6 @@ a:hover {
     color: #b71c1c;
   }
 
-  .fa {
-    color: #212121;
-  }
 
 /* ********** CENTER OPTION *******************************************************/
 .center{
