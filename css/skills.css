@@ -11,24 +11,31 @@ h1{
   }
 
 h2{
-    font-size: 1.5em;
-    font-family:serif, sans-serif, cursive, fantasy;
-    color: #ffffff;
+    font-size: 1.6em;
+    font-family:georgia, sans-serif, cursive, fantasy;
+    color: #e67e22;
     margin: 0;
+    padding: 0 1em .5em;
   }
 
 h3{
-    font-size: 2em;
     font-family: serif, sans-serif;
     color:  #FF0000 ;
     margin-top: .1px;
     font-weight: bold;
   }
+  p{
+      font-size: 1.5em;
+      font-family: serif, sans-serif;
+      color:  #ffffff ;
+
+    }
 
 .list li {
       list-style-type: none;
-      margin: 1em;
       color: #ba68c8;
+      margin: .15em;
+      font-size: 4em;
   }
 
 .list {
@@ -41,6 +48,10 @@ h3{
     flex-wrap: wrap;
     justify-content: center;
     padding: 0;
+  }
+  .skillsHeader{
+    max-width: 600px;
+    margin: 0;
   }
 
 .center1{
@@ -62,22 +73,36 @@ h3{
       font-size: 3.5em;
     }
     .list {
-      font-size: 1.4em;
+      font-size: 1.5em;
       max-width: 500px;
+      line-height: 1.6em;
+
     }
     .skills {
       margin-top: 1.5em;
+      max-width: 500px;
+    }
+    .skillsHeader{
+      max-width: 500px;
+      padding: 0 .5em;
     }
   }
 
 @media (max-height:570px) {
     .list {
       font-size: 1.1em;
+      margin: 0;
+      line-height: 1.6em;
+      margin-top: -1em;
     }
     .list li {
-      margin: .6em;
+      margin: .1em;
     }
     .skills {
       margin-top: 1.2em;
+    }
+    p{
+      font-size:1.25
+      margin:0;
     }
   }

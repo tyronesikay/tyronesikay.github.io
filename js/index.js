@@ -4,7 +4,7 @@ $(document).ready(function () {
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 
     $('.navbar').hide();
-  
+
 
 //******************* Add Class then, Remove Class after animate ends **********************
     var animationEnd ='webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';

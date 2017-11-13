@@ -20,7 +20,7 @@ h2{
   }
 
 .aboutMain{
-  max-width: 800px;
+  max-width: 900px;
   font-size: 1.7em;
   font-family: Georgia, serif, sans-serif;
   color: #ffffff;
@@ -64,12 +64,8 @@ a:hover {
   text-decoration: none;
 }
 
-
-
-
-
 #home1{
-  padding-top: 12%;
+  padding: 12% 3% 0;
   text-align: center;
 }
 
@@ -96,7 +92,7 @@ a:hover {
         text-align: left;
       }
       #home1{
-        padding-top: 15%;
+        padding: 15% 4% 0;
         text-align: center;
       }
       .aboutHeader i{
