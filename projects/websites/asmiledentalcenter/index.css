@@ -58,7 +58,7 @@ hr{
     transform: scale(1.15);
 }
 .main img{
-    margin-right: 20px;
+    margin-right: auto;
 }
 .main .affiliates{
     text-align:center;
@@ -193,6 +193,9 @@ form .form-control{
 @media (min-width:991px) {
     .content h1, .content .main .row h1{
         font-size:50px;
+    }
+    .main img{
+        margin-right: 20px;
     }
     .content h2{
         font-size:45px;
