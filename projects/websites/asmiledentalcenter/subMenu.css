@@ -1,0 +1,69 @@
+.main .row img {
+	margin: 0 auto;
+}
+.float-right, .float-left {
+	float:none;
+	display:block;
+}
+.content .main .row {
+	margin-bottom:0;
+}
+.dentalServices {
+	padding-top:25px;
+}
+.dentalServices .services, .services {
+	padding-bottom: 35px;
+}
+/* ---DENTAL SERVICE.HTML ----------------------*/
+.main .row #beforeAfter{
+    background:#343434;
+    border:1px solid #232323;
+    border-radius:5px;
+    margin:-20px 0 -10px -10px;
+    padding:15px;
+}
+.main {
+	padding-right:5px;
+}
+.beforeAfterSide {
+	margin-right:-10px;
+	padding-right: 0;
+}
+.beforeAfterSide h2 {
+	padding-left: 20px;
+}
+.beforeAfterSide ul li{
+	border-top: 1px solid #1D1D1D;
+	padding: 0;
+	padding-left:1px;
+}
+.beforeAfterSide li a {
+	line-height: 21px;
+	padding-left:0;
+	padding-right:-5px;
+}
+.beforeAfterSide li a:hover{
+	background:#222222;
+	color:#FFB51E;
+}
+.beforeAfterSide li:last-child{
+	border-bottom: 1px solid #1D1D1D;
+}
+
+
+
+/* ---BEFORE AND AFTER.HTML ----------------------*/
+
+@media (min-width:991px) {
+	.main .row img {
+		margin-right: 20px;
+	}
+    .float-right {
+        float:right;
+    }
+	.float-left {
+        float:left;
+    }
+	.content .main .row #beforeAfter h1, .main .row .beforeAfterSide h2{
+	    text-align: left;
+	}
