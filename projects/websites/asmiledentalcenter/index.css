@@ -52,6 +52,13 @@ hr{
 .main{
     padding:25px 30px 20px;
 }
+#drToquero img{
+    margin: 0 auto;
+}
+.float-right, .float-left {
+	float:none;
+	display:block;
+}
 /* ------------------------------------------*/
 .main .affiliates li a:hover{
     background:none;
@@ -81,7 +88,7 @@ hr{
     text-align: center;
     font-size:40px;
 }
-.content .main .row{
+.content .main .photos{
     margin: 15px 0 85px;
 }
 .content .main .row h3{
@@ -194,8 +201,14 @@ form .form-control{
     .content h1, .content .main .row h1{
         font-size:50px;
     }
-    .main img{
+    .main img, #drToquero img{
         margin-right: 20px;
+    }
+    .float-right {
+        float:right;
+    }
+    .float-left {
+        float:left;
     }
     .content h2{
         font-size:45px;
