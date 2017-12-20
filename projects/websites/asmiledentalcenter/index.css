@@ -8,7 +8,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5{
     font-family: 'Tangerine', cursive;
     color: #FFB51E;
     font-size:40px;
@@ -42,7 +42,7 @@ hr{
     box-shadow: 0 0 15px .4px #000;
     padding-bottom:.1px;
 }
-.main .thumbnails .col-md-4{
+.main .thumbnails{
     padding: 5px;
 }
 .content p{
@@ -50,7 +50,7 @@ hr{
     line-height:21px;
 }
 .main{
-    padding:25px 30px 20px;
+    padding:10px;
 }
 #drToquero img{
     margin: 0 auto;
@@ -59,13 +59,16 @@ hr{
 	float:none;
 	display:block;
 }
+.main .info{
+    margin: 0 5px;
+}
 /* ------------------------------------------*/
 .main .affiliates li a:hover{
     background:none;
     transform: scale(1.15);
 }
 .main img{
-    margin-right: auto;
+    margin: auto;
 }
 .main .affiliates{
     text-align:center;
@@ -89,16 +92,14 @@ hr{
     font-size:40px;
 }
 .content .main .photos{
-    margin: 15px 0 85px;
+    margin: 0;
 }
 .content .main .row h3{
     margin-bottom: 0;
 }
 /* ---PHOTOS.HTML ----------------------*/
-.main .row .patientData, .main .row .patientSide{
-    padding-left: 0;
-}
-.main .row ul{
+
+.main .row ul, .main .info ul{
     margin-left: 20px;
 }
 .main .row .patientData li{
@@ -120,7 +121,7 @@ form label{
     padding-bottom:5px;
 }
 form .form-control{
-    width:200px;
+    width:100%;
 	font-family: Arial;
     font-size:14px;
 	border: 1px solid rgb(0, 0, 0);
@@ -129,12 +130,23 @@ form .form-control{
 	border-radius: 5px;
     padding:2px;
 }
+textarea{
+    width:100%;
+}
 .main .row #contactInfo{
     background:#343434;
     border:1px solid black;
     border-radius:5px;
-    margin:-20px 0 -10px -10px;
-    padding:15px;
+    margin: 10px;
+    padding:20px;
+}
+.main #contact{
+    margin:0;
+}
+.main #contactMap{
+    padding-left:35px;
+    background:url(img/sidebar.png)repeat-y;
+    background-position:20px 0;
 }
 /* ---CONTACT.HTML ----------------------*/
 .footer{
@@ -143,11 +155,11 @@ form .form-control{
     border-radius: 5px;
     margin: 40px 10px 20px;
     min-height:660px;
-    padding:20px 0;
+    padding:20px 0 0;
     box-shadow: 0 0 5px .4px #000 inset;
 }
 .footer .col-md-4{
-    padding: 0 30px;
+    padding: 0 35px;
 }
 .footer img{
     float:left;
@@ -160,6 +172,9 @@ form .form-control{
     margin-top: 15px;
     text-align:left;
     line-height:170%;
+}
+.promo{
+    padding: 0 15px;
 }
 .button{
     background:#FCD950;
@@ -201,37 +216,52 @@ form .form-control{
     .content h1, .content .main .row h1{
         font-size:50px;
     }
-    .main img, #drToquero img{
-        margin-right: 20px;
+    .content .main .photos{
+        margin: 15px 0 85px;
     }
+
     .float-right {
         float:right;
+        padding-left:15px;
     }
     .float-left {
         float:left;
+        padding-right:15px;
     }
     .content h2{
         font-size:45px;
     }
-    .content h1, .content h2{
+    .content h1, .content h2,
+    .content .main .row h1,
+    .content .main .row h2{
         text-align: left;
     }
-    .main .thumbnails .col-md-4{
+    .main .thumbnails{
         padding: 35px 15px;
+    }
+    .main .row #contactInfo{
+        margin: -5px 0 0 -10px;
     }
     .main .row h1, #contactInfo h1, #contactMap h1{
         text-align:left;
-
+    }
+    .main{
+        padding:25px 30px 20px;
     }
     .footnote li a{
         padding:0 25px 0 0;
     }
     .main .affiliates{
         text-align:left;
-
     }
     .main .affiliates li{
         display:inline-block;
+    }
+    form .form-control{
+        width:200px;
+    }
+    form .form-group textarea{
+        width:300px;
     }
 
 }

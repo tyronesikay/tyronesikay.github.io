@@ -15,55 +15,134 @@
 	padding-bottom: 35px;
 }
 /* ---DENTAL SERVICE.HTML ----------------------*/
-.main .row #beforeAfter{
+.main .row #beforeAfter, .main .row #officeGallery{
     background:#343434;
     border:1px solid #232323;
     border-radius:5px;
-    margin:-20px 0 -10px -10px;
-    padding:15px;
+    margin:5px auto;
+	padding-bottom:30px;
+	text-align:center;
 }
-.main {
-	padding-right:5px;
+.main .row #officeGallery a img{
+    margin:3px auto 4px;
 }
-.beforeAfterSide {
-	margin-right:-10px;
-	padding-right: 0;
+
+.row .beforeAfterSide , .row .officeGallerySide {
+	margin-left: 20px;
+	margin-right: -10px;
+	padding: 0;
+	background:url(img/sidebar.png)repeat-y;
 }
-.beforeAfterSide h2 {
+.beforeAfterSide h2, .officeGallerySide h2 {
 	padding-left: 20px;
 }
-.beforeAfterSide ul li{
+.beforeAfterSide ul li, .officeGallerySide ul li{
 	border-top: 1px solid #1D1D1D;
 	padding: 0;
 	padding-left:1px;
 }
-.beforeAfterSide li a {
+.beforeAfterSide li a,
+.officeGallerySide li a {
 	line-height: 21px;
 	padding-left:0;
 	padding-right:-5px;
 }
-.beforeAfterSide li a:hover{
+.beforeAfterSide li a:hover,
+.officeGallerySide li a:hover{
 	background:#222222;
 	color:#FFB51E;
 }
-.beforeAfterSide li:last-child{
+.beforeAfterSide li:last-child, .officeGallerySide li:last-child{
 	border-bottom: 1px solid #1D1D1D;
 }
-
-
-
 /* ---BEFORE AND AFTER.HTML ----------------------*/
+.article{
+	background:#343434;
+    border:1px solid #232323;
+    border-radius:10px;
+	padding:20px;
+	margin-bottom:30px;
+
+}
+.article i{
+	font-size:11px;
+	line-height:12px;
+}
+.article h2 a:hover{
+	color: #FFB51E;
+}
+.commentBallon{
+	background:url(img/comment.png)no-repeat;
+	font-weight: bold;
+    line-height: 25px;
+    float:right;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fafafa;
+	color:#666666;
+}
+.row .latestNewsSide {
+	margin-left: 10px;
+	margin-right: -10px;
+	padding-left: 20px;
+	background:url(img/sidebar.png)repeat-y;
+}
+.row .latestNewsSide .media{
+	margin-top: 5px;
+}
+.row .latestNewsSide h6{
+	font-family: Verdana, geneva, tahoma;
+    color: #FFB51E;
+    font-size:11px;
+	margin-bottom:0;
+}
+.row .latestNewsSide .media a:hover{
+    color: #FFB51E;
+}
+.row .latestNewsSide .media p{
+    color: #F2F2F2;
+    font-size:10px;
+	font-style:italic;
+}
+/* ---LATEST NEWS.HTML ----------------------*/
+.main .clearFloat{
+	padding-bottom:10px;
+}
+/* ---PATIENT INFORMATION.HTML ----------------------*/
+.main .form-group ul{
+	margin:0;
+}
+.main .form-group ul li{
+	display:inline;
+	padding-right: 15px;
+	white-space:nowrap;
+}
+/* ---APPOINTMENT.HTML ----------------------*/
 
 @media (min-width:991px) {
-	.main .row img {
-		margin-right: 20px;
-	}
-    .float-right {
+	.float-right {
         float:right;
+		padding-left:15px;
     }
 	.float-left {
         float:left;
+		padding-right:15px;
     }
+	.main .clearFloat{
+		padding-bottom:140px;
+	}
 	.content .main .row #beforeAfter h1, .main .row .beforeAfterSide h2{
 	    text-align: left;
+	}
+	.main .row #beforeAfter, .main .row #officeGallery{
+	    margin:-5px 0 0 -10px;
+		text-align:left;
+	}
+	.beforeAfterSide , .officeGallerySide {
+		margin-left: 0;
+		padding: 0;
+		background:url(img/sidebar.png)repeat-y;
 	}
