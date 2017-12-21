@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Aesthetic Smile Dental Center - Landing Page</title>
+        <link rel="icon" href="img/favicon.ico">
+        <style>            
+            body{
+                background:slategrey;
+            }
+            h1{
+                font-size:2em;
+                color:#c51414d8;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                text-align:center;
+            }
+            h3{
+                margin-top:0;
+                font-family:'Times New Roman', Times, serif;
+                color:#f39c12;
+                font-size:1.5em;
+            }
+            ul{
+                padding-left:18px;
+            }
+            p, li{
+                font-size:1em;
+            }
+            a, b{
+                color:#f39c12;
+                text-decoration:none;         
+            }
+            .box a:hover h3, b:hover {
+                color:#c51414d8;            
+            }
+            .container{
+                margin:2em auto;
+                color:white;                 
+                max-width:700px;   
+                padding:0 2em;       
+            }
+            .row{
+                margin:0 auto 50PX;;
+                display:flex;
+                flex-direction:row;
+                flex-wrap:wrap;
+                align-items:center;
+                justify-content:center;
+                max-width:1200px;
+                text-align:center;                
+            }
+            .box{
+                margin:1em 3em;
+                text-align:center;                
+            }
+            .box img:hover{
+                opacity:1;
+                transform: scale(1.1,1.1)
+
+            }
+            img{
+                width:320px;
+                height:auto;
+                opacity:.8;                
+            }
+            @media (min-width:1024px) {
+                h1{
+                    font-size:3em;
+                }
+                p, li{
+                    font-size:1.2em;
+                }
+                .container{
+                    margin:5em auto;
+                }
+                img{
+                    width:auto;
+                    height:400px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Website Conversion</h1>
+            <p>Existing <a href="http://www.asmiledentalcenter.com/"><b>Static HTML</b></a> converted to <a href="home.html"><b>Responsive HTML</b></a> using Bootstrap and Javascript.</p>
+            <ul>
+                <li>This is just a conversion, not a re-design.  I re-created the existing website's lay-out pixel by pixel (or a few pixel apart).</li>
+                <li>No template was used, I re-wrote the code from scratch using bootstrap and Jquery.</li>
+                <li>Navbar menu and footer is in separate HTML, it was loaded in each page so changing them will be easy,  you don't have to change it in each html page.</li>
+                <li>The navbar menu in the existing website is not aligned, so i tweaked it a little bit so it will lined up.</li>
+                <li>Box shadow in the existing website is an image file, when i tried to use it for the Responsive website,  the image doesn't shrink properly for the small screen so i just used plain CSS (box-shadow).</li>
+            </ul>
+            <p>Follow the links below to see the existing static website and the responsive website.</p>
+        </div>
+        <div class="row">
+            <div class="box">
+                <a href="http://www.asmiledentalcenter.com/"><img src="img/dentalOfficeMonitor.png" alt="Static HTML" width="auto" height="400px">
+                    <h3>Static HTML</h3>
+                </a> 
+            </div>       
+            <div class="box">
+                <a href="home.html"><img src="img/dentalOfficeResponsive.png" alt="Responsive HTML" width="auto" height="400px">
+                    <h3>Responsive HTML</h3>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>
