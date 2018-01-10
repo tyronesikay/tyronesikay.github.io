@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>PSD conversion</title>
+        <link rel="icon" href="https://raw.githubusercontent.com/tyronesikay/tyronesikay.github.io/master/img/favicon.ico">
+        <style>            
+            body{
+                background:slategrey;
+            }
+            h1{
+                font-size:2em;
+                color:#c51414d8;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                text-align:center;
+            }
+            h3{
+                margin-top:0;
+                font-family:'Times New Roman', Times, serif;
+                color:#f39c12;
+                font-size:1.5em;
+            }
+            ul{
+                padding-left:18px;
+            }
+            p, li{
+                font-size:1.1em;
+            }
+            a, b{
+                color:#f39c12;
+                text-decoration:none;         
+            }
+            .box a:hover h3, b:hover {
+                color:#c51414d8;            
+            }
+            .container{
+                margin:2em auto;
+                color:white;                 
+                max-width:700px;   
+                padding:0 2em;       
+            }
+            .row{
+                margin:0 auto 50PX;;
+                display:flex;
+                flex-direction:row;
+                flex-wrap:wrap;
+                align-items:center;
+                justify-content:center;
+                max-width:1200px;
+                text-align:center;                
+            }
+            .box{
+                margin:1em 3em;
+                text-align:center;                
+            }
+            .box img:hover{
+                opacity:1;
+                transform: scale(1.1,1.1)
+
+            }
+            img{
+                width:320px;
+                height:auto;
+                opacity:.8;                
+            }
+            @media (min-width:1024px) {
+                h1{
+                    font-size:3em;
+                }
+                p, li{
+                    font-size:1.2em;
+                }
+                .container{
+                    margin:5em auto;
+                }
+                img{
+                    width:400px;
+                    height:auto;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>PSD Conversion</h1>
+            <p>A skills test that i've took recently,  the goal is to convert a PSD layout to responsive html page with the following guidelines. </p>
+            <ul>
+                <li>The carousel should be responsive,  it should be in the bottom of the background image at every screen size. </li>
+                <li>In Mobile view,  the menu tabs should be converted to an accordion type.</li>
+              
+            </ul>
+            <p>Follow the link below to see the live page.</p>
+        </div>
+        <div class="row">
+            <div class="box">
+                <a href="img/coalitionPSD.png"><img src="img/coalitionPSD.png" alt="Coalition PSD" width="300px" height="auto">
+                    <h3>PSD</h3>
+                </a> 
+            </div>       
+            <div class="box">
+                <a href="coalition.html"><img src="img/coalition.png" alt="Coalition Responsive HTML" width="300px" height="auto">
+                    <h3>Responsive HTML</h3>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

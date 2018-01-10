@@ -1,0 +1,431 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Lato', sans-serif;  
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+a:hover{
+    text-decoration:none;
+}
+
+.container{
+    max-width:960PX;  
+    
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+/*      *************** START accordion *********************    */ 
+#accordion h4 {
+    font-family: Lato;
+    color:  #feffff;
+    font-size: 15px;
+    line-height:25px;
+    font-weight: 900;
+    font-style: italic;   
+    text-align: center;
+    width:100%;   
+    display:block;        
+}
+#accordion .panel-heading{
+    padding:5px;
+    display:block;
+}
+.myMenus{
+    display:none;
+}
+
+@media (min-width:737px){
+    #accordion .panel-heading{
+        display: none;     
+        padding:0;        
+    }
+    #accordion h4 {
+       display:none;
+    }
+    .myMenus{
+        display:block;
+    }
+    
+}
+/*      *************** START MAIN *********************    */  
+.main{
+    background-image: url(img/main.jpg);
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    height:51.5vw;
+    width:100vw;
+}
+.main-menu {
+    padding-top:7px;
+    padding-left:1px;
+}
+.main .main-menu span a, 
+.content-nav span a{
+    font-family: Lato;
+    color:  #feffff;
+    font-size: 10px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 20px;
+    text-align: left;
+    margin-left:10px;
+    padding-right:7px;
+    padding-bottom:2px;
+    border-bottom: 1px solid #feffff;
+}
+.main .main-menu span a:hover,
+.content-nav span a:hover{
+    border-bottom: 2px solid #d12711;     
+    
+}
+.main .logo{
+    width: 43px;
+    height: 43px;
+}
+/*      *************** START CONTENT NAV ****************    */ 
+.navbar{
+    background:#ffffff;
+}
+.content-nav{    
+    height:74px;
+    line-height:74px;
+    padding-left:3px;
+}
+.content-nav img{
+    vertical-align: middle;
+}
+.content-nav span a{
+    font-family: Lato;
+    color:  #414f6b;
+    font-size: 10px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 20px;
+    text-align: left;
+    margin-left:10px;
+    padding-right:7px;
+    padding-bottom:2px;
+    border-bottom: 1px solid #414f6b;
+}
+/*      *************** START HISTORY ****************    */ 
+.history{
+    background: url(img/carousel.jpg);
+    background-color: rgba(0,0,0,0.5);
+    background-size:100% auto;
+    background-repeat:no-repeat;
+    width: 100vw;
+    height:auto /*51.5vw*/;
+    overflow:hidden;
+}
+.history h1{
+    font-family: Oswald;
+    color:  #657792;
+    font-size: 81px;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: left;
+    margin-left: 2px;
+    margin-top:33px;
+    padding:0;    
+
+}
+.history h2{
+    font-family: Oswald;
+    color:  #414f6b;
+    font-size: 19.2px;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: left;
+    margin-top:75px;
+    margin-left:-12px;
+}
+.history p{    
+    font-family: Lato;
+    color:  #000000;
+    font-size: 10px;/* Approximation due to font substitution */
+    font-weight: 300;
+    line-height: 15px;/* Approximation due to font substitution */
+    text-align: left;
+    margin-top:-95px;
+    margin-left:155px;
+    margin-right:15px;
+}
+
+/*      *************** START CAROUSEL     ****************    */ 
+.myFont{
+    display:block;
+    position: relative;
+    max-width:960px;
+    margin:0 auto;
+}
+.myPadding{    
+    display:none;
+    background:transparent;
+    position: relative;
+    width:100vw;
+    height:51.5vw;
+    overflow:hidden;
+}                                                                 
+                                                                       
+.carousel {
+    display:block;
+    position:relative;
+    height: 195px;
+    padding-bottom:1px; 
+    padding-top: -11px;      
+    background:rgba(65, 79, 107, 0.85);
+    margin-top:2.5em;  
+    padding-left:15%;
+    padding-right:15%;  
+  }
+  
+    .carousel-inner img{ 
+  
+        width: auto; 
+        padding-top:1.5em;
+        height:135px;
+        margin: auto;
+    }
+
+    .carousel-indicators{
+        margin-bottom: -8px;
+    }
+
+/*      *************** START TEAM ****************    */ 
+.team .banner{
+    max-height:180px;   
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    clear: both;    
+}
+.team h1{
+    font-family: Oswald;
+    color:  #a1a8b6;
+    font-size: 81px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 10px;
+    margin-top:12px;
+    padding:0;    
+
+}
+.team h2{
+    font-family: Oswald;
+    color:  #414f6b;
+    font-size: 19.2px;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: left;
+    margin-top:37px;
+    margin-left:-15px;
+}
+.team .banner .container p{    
+    font-family: Lato;
+    color:  #000000;
+    font-size: 10px;/* Approximation due to font substitution */
+    font-weight: 300;
+    line-height: 15px;/* Approximation due to font substitution */
+    text-align: left;
+    margin-left:15em;
+    margin-top:65px;  
+    transform: translateY(-50%) ;   
+}
+.team-nav{
+    background-color:  #414f6b;   
+    height: 40px;
+}
+.team-nav a{
+    display:inline-block;
+    font-family: Oswald;
+    color:  #b0b4be;
+    font-size: 20px;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: center;
+    width:140px;
+    line-height:40px;
+}
+.team-nav .container a:hover{
+    background: #b0b4be;
+    color:#414f6b;
+}
+
+.team-content{
+    background:url(img/team-1600x546.jpg);   
+    background-repeat: no-repeat;
+    background-size: 100% auto;     
+    height:34vw; 
+    width:100vw;
+    overflow:hidden;
+    
+}
+
+.team-content .schedule table{
+    
+    margin:0 auto/* 101px 31px */;
+    background-color:  rgba(255, 255, 255, 0.7);
+    width: auto /* 352px */;
+    height: 60vh/* 229px */;    
+}
+.team-content .schedule th{
+    font-family: Oswald;
+    color:  #414f6b;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 700;
+    text-align: left;   
+    padding-left:5px;
+    padding-bottom:0;
+    height:25px;
+}
+.team-content .schedule td{
+    font-family: Lato;
+    color:  #000000;
+    font-size: 9px;/* Approximation due to font substitution */
+    font-weight: 300; 
+    text-align: left;      
+}
+.team-content .schedule .td-left{
+    padding-left:5px;   
+    height:1px;
+}
+.team-content .schedule .td-right{    
+    padding-left:0;
+    height:1px;
+}
+
+/*      *************** START FOOTER **********************    */ 
+.footer{
+    background:#414f6b;
+    height: 40px;
+    line-height:40px;
+    overflow:hidden;
+}
+.footer img{
+    margin-left:-25px;
+    vertical-align:middle;
+    transform:scale(.7,.7);
+}
+.footer h5{
+    font-family: Lato;
+    color:  #63769d;
+    font-size: 7px;
+    font-weight: 900;
+    font-style: italic;
+    line-height:40px;
+    margin:0;    
+}
+/*      *************** START MEDIA **********************    */ 
+
+@media (min-width:960px) {
+    .container{       
+        margin: 0 auto;
+    }                                                                           
+    .history{                                                                                           
+        height:51.5vw;                                                                                          
+    }
+    .main-menu {       
+        padding-left:22px;
+    } 
+    .main .main-menu span a,
+    .content-nav span a{        
+        font-size: 12px;   
+        margin-left:49px;    
+    }
+    .content-nav{           
+        padding-left:22px;
+    }
+    .history h1{       
+        font-size: 135.59px;/* Approximation due to font substitution */      
+        margin-left: 2px;
+        margin-top:33px;
+        padding:0;    
+    
+    }
+    .history h2{       
+        font-size: 31.99px;/* Approximation due to font substitution */       
+        margin-top:109px;
+        margin-left:-20px;
+    }
+    .history p{      
+        font-size: 16px;/* Approximation due to font substitution */       
+        line-height: 24px;/* Approximation due to font substitution */       
+        margin-top:-19px;
+        margin-left:67px;
+        margin-right:15px;
+    }
+    .team h1{       
+        font-size: 135px;          
+        margin-left: 43px;
+        margin-top:12px;    
+    }
+    .team h2{    
+        font-size: 31.99px;/* Approximation due to font substitution */       
+        margin-top:55px;
+        margin-left:-21px;
+    }
+    .team .banner .container p{  
+        font-size: 16px;/* Approximation due to font substitution */
+        line-height: 24px;/* Approximation due to font substitution */
+        margin-left:306px;
+        margin-top:90px;   
+        transform: translatey(-50%)
+    }
+    .team-content .schedule table{
+    
+        margin:6.31em 1.94em/* 101px 31px */;        
+        width: 352px  /* 22em*/;
+        height: 229px /* 14.3em*/;        
+    }
+    .team-content .schedule th{        
+        font-size: 31.99px;/* Approximation due to font substitution */  
+        height:65px;
+        padding-left:40px;
+    }
+    .team-content .schedule td{       
+        font-size: 16px;/* Approximation due to font substitution */   
+    }
+    .team-content .schedule .td-left{
+        padding-left:40px;   
+    }
+    .team-content .schedule .td-right{    
+        padding-left:0;
+    }
+    .footer{       
+        height: 75px;
+        line-height:75px;       
+    }
+    .footer img{
+        margin-left:22px;   
+        transform:scale(1);    
+    }
+    .footer h5{       
+        font-size: 12px;
+        line-height:75px;       
+    }
+}
+@media (min-width:736px) {
+    .myFont{
+        display:block;
+        position: absolute;
+        max-width:960px;
+        margin:0 auto;        
+       
+    }
+    .carousel {      
+        margin-top:-195px;    
+      }
+      .myPadding{    
+        display:block;       
+        position: relative;       
+    }    
+    
+}
+
