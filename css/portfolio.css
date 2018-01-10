@@ -34,6 +34,7 @@ a:hover{
 
 .thumbnail{
   background-color: #7986cb;
+  box-shadow: 6px 5px 6px rgb(141, 133, 133);
 }
 
 .thumbnail:hover{
