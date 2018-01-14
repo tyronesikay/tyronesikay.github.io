@@ -1,0 +1,394 @@
+*{
+    margin:0;
+    border:0;
+    }
+    body{
+        font-family: 'Montserrat', sans-serif;
+        background: #edf1f2;
+        box-sizing: border-box;
+    }
+    ul{
+        padding: 0;
+    }
+    ul li{
+        list-style-type:none;
+        text-decoration:none;  
+    }
+    a{
+        text-decoration:none;
+        color: inherit;
+    }
+    .pull-right{
+        float: right;
+    }
+    .pull-left{
+        float:left;
+    }
+    .my-container{
+        max-width:1170px;   
+        margin:0 auto;
+    }
+
+/*  ---------------------------START NAVBAR -------------------------------------------------*/
+header{
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.14);
+    width: 100%;
+    height: 100px;
+    background:  #ffffff;
+    }
+    header a{
+        color:  #202326;
+        font-size: 13px;/* Approximation due to font substitution */
+        font-weight: 700;
+        line-height: 26px;/* Approximation due to font substitution */
+        text-align: left;
+        
+    }
+    .nav-top{  
+        width:100%;
+        height:57px;
+        display: inline-block;   
+        }
+
+        .nav-top img{
+            display:inline-block;
+            margin: auto 0;
+            width: 77px;
+            height: 17px;
+            padding-right:6.56em;
+        }
+        .nav-top .search-group{
+            display: inline-block;
+            height: 36px;
+        }
+        .nav-top li{
+            padding-left: 30px;
+        }
+    .nav-bottom{   
+        border-top: 1px solid #0b79d3;    
+        width: 100%;
+        }        
+        .nav-bottom .nav-category{
+            display: inline-block;
+        }
+        .nav-bottom li{
+            display:inline-block;
+            color:  #202326;    
+            padding: 0 10px;      
+        }
+        .nav-bottom .help{
+            float: right;
+            color:  #a3a9ae;          
+            text-align: right;
+        }
+
+/*  ---------------------------START CAROUSEL -------------------------------------------------*/
+.carousel{
+    width: 100%;
+    height: 400px;
+    background: cyan;
+    margin-top: 40px;
+    }
+/*  ---------------------------START PANELS -------------------------------------------------*/  
+.panel{
+    margin-top: 40px;
+    border-radius: 4px;
+    border: 1px solid #dde2e6;
+    background-color:  #ffffff;
+    } 
+    .daily-deals{
+        height:370px;
+    }
+    .panel-header{
+        height: 70px;
+        border-bottom: 1px solid #dde2e6;
+        padding: 0 30px;
+    } 
+    .panel-header a{
+        line-height: 70px;
+        color:  #2996d4;
+        font-size: 13px;/* Approximation due to font substitution */
+        font-weight: 400;
+        line-height: 70px;/* Approximation due to font substitution */
+    }
+    .panel h2{
+        display: inline;
+        color:  #202326;
+        font-size: 24px;/* Approximation due to font substitution */
+        font-weight: 300;
+        line-height: 70px;/* Approximation due to font substitution */
+    }
+    .panel .panel-row{
+        position:relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .panel-row .panel-items{
+        position:relative; 
+        border-right: 1px solid #dde2e6;
+        display: inline-block;
+        width: 25%;
+        height: 300px;
+        text-align:center;
+        padding: 30px;
+        box-sizing:border-box;
+        
+    }
+    .panel-row li:last-child{
+        border-right: none;       
+    }
+    .panel-row li .promo, .panel-slider .promo{
+        position: absolute;
+        background-color:  #f9ad0b;
+        padding: 0 9px;
+        border-radius: 10px;
+        height: 20px;
+        float:left; 
+        color:  #ffffff;
+        font-size: 11px;/* Approximation due to font substitution */
+        font-weight: 400;
+        line-height: 20px;/* Approximation due to font substitution */
+    }
+    .panel-row li img{         
+        margin: 0 auto;
+        width: auto;
+    }
+    .panel-row .description{
+        margin-top: 30px;
+        font-weight: 700;
+    }
+    .panel-row .price{        
+        position: absolute;
+        font-weight: 700;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .price span{
+        color:  #a3a9ae;
+        text-decoration: line-through;
+        padding-right: 11px;
+    }
+/*  ----------START PANELS WITH SLIDER (SOME PROPERTIES COMBINED ABOVE) -----------------------------------*/ 
+.electronics{
+    display: block;
+    }
+    .electronics .row{
+        display:flex;
+       /* flex-wrap: wrap;
+        justify-content: space-evenly */
+        flex-direction: row;
+        width: 100%;
+        border-bottom: 1px solid #dde2e6;
+    }
+    .panel-content{
+       /* height: 340px; */
+        overflow: hidden;
+    }
+    .column{
+        width: 100%;
+    }
+    .panel-slider{
+        position: relative; 
+        width: 585px;  
+        height: 340px; 
+    }
+    .panel-slider .slider-info{
+        position:absolute;
+        padding: 30px 0 30px 30px;
+    }
+    .panel-slider h1{
+        margin-top: 51px;
+        color:  #202326;
+        font-size: 24px;/* Approximation due to font substitution */
+        font-weight: 700;
+        line-height: 38px;/* Approximation due to font substitution */
+    }
+    .panel-slider .buy-now{
+        border-radius: 4px;
+        background-color:  #62bf43;
+        width: 224px;
+        height: 40px;
+        color:  #ffffff;
+        font-size: 14px;/* Approximation due to font substitution */
+        font-weight: 400;
+        line-height: 40px;/* Approximation due to font substitution */
+        text-align: center;
+        margin-top: 34px;
+    }
+        .buy-now .button{
+            width: 140px;
+            float: right;
+            background-color:  transparent;
+            text-align: center;
+            color:  #ffffff;
+            font-size: 14px;/* Approximation due to font substitution */
+            font-weight: 400;
+            line-height: 38px;/* Approximation due to font substitution */
+            text-align: center;
+            border-left:1px solid #4d9a33;
+            padding: auto;
+        }
+        .buy-now .button:hover{
+            cursor:pointer;
+        }
+   
+    .electronics .panel-items-wide{
+        position:relative;
+        width:100%;
+        height: 170px;
+        border-right: 1px solid #dde2e6;
+        
+    }
+        .panel-items-wide img{
+            position: absolute;
+            top: 50%;
+            left: 65px;
+            transform: translate(-50%, -50%);
+        }
+        .panel-items-wide .description{
+            position: absolute;            
+            margin-left: 130px;
+            margin-top: 30px;
+            color:  #202326;
+            font-size: 16px;/* Approximation due to font substitution */
+            font-weight: 700;
+            line-height: 26px;/* Approximation due to font substitution */
+            text-align: left;
+        }
+        .panel-items-wide .price{
+            position:absolute;
+            bottom: 30px;
+            margin-left: 130px;
+            font-weight: 700;
+        }
+/*  ----------START FEATURED COLLECTIONS -----------------------------------*/ 
+.pane-featured-collections{
+    display:block;
+    }
+    .collections-content{
+        padding: 15px;
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .collection-item{
+        width: 350px;
+        padding:14px;
+    }
+    table, th, tr, td{
+        border:1px solid #dee3e7;
+        border-collapse: collapse;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    table .main-image{
+        vertical-align:middle;
+        width:350px;
+        height:250px;
+    }
+    th{
+        border-width: 0;
+        padding:0;
+    }
+    td{
+        width:33%;
+        height:115px;
+        text-align:center;
+    }
+    .description{
+        text-align:center;
+    }
+    .description h3{
+        color:  #202326;
+        font-size: 16px;/* Approximation due to font substitution */
+        font-weight: 700;
+        margin-top: 28px;
+      
+    }
+    .description p{
+        color:  #6e747a;
+        font-size: 14px;/* Approximation due to font substitution */
+        font-weight: 700;
+        margin-top:16px;
+       
+    }
+    .description a{
+        display:block;
+        color:  #2996d4;
+        font-size: 14px;/* Approximation due to font substitution */
+        font-weight: 700;
+        margin-top:15px;
+       
+        }
+/*  ----------START FOOTER -----------------------------------*/ 
+footer{
+    display:block;
+    }
+    .footer-top{
+        background-color:  #ffffff;
+        height: 140px;
+        text-align: center;
+        margin-top:40px
+        }
+        .footer-top h3{
+            display:block;
+            padding-top:27px;
+            color:  #202326;
+            font-size: 24px;/* Approximation due to font substitution */
+            font-weight: 400;
+          
+        }
+        .footer-top p{
+            margin-top: 18px;
+        }
+        .footer-top input{
+            width:325px;
+            height:34px;
+            border: 1px solid #a3a9ae;
+            border-radius: 4px;
+            padding:0;
+            padding-left: 15px;
+        }
+        .footer-top button{
+            border-radius: 4px;
+            background-color:  #2a96d4;
+            width: 160px;
+            height: 36px;
+            color:  #ffffff;
+            font-size: 13px;/* Approximation due to font substitution */
+            font-weight: 400;
+            line-height: 26px;/* Approximation due to font substitution */
+            text-align: center;
+        }
+    .footer-bottom{
+        background-color:  #202326;
+        height: 230px;
+        
+        }
+        .footer-bottom .my-container{
+            display: flex;
+        }
+        .footer-column{
+            width: 300px;
+            margin-top:30px;
+        }
+        .footer-column h4{
+            color:  #a3a9ae;
+            font-size: 16px;/* Approximation due to font substitution */
+            font-weight: 400;
+            line-height: 26px;/* Approximation due to font substitution */
+        }
+        .footer-column li a, .footer-column p{
+            color:  #ffffff;
+            font-size: 12px;/* Approximation due to font substitution */
+            font-weight: 300;
+            line-height: 30px;/* Approximation due to font substitution */
+        }
+
+
+
+    
